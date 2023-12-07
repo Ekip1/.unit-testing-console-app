@@ -14,7 +14,7 @@ public class Grades
                 return "Good";
             case >= 4.00 and < 4.50:
                 return "Very Good";
-            case > 4.50 and < 5.00:
+            case >= 4.50 and <= 5.00:
                 return "Excellent";
             default:
                 return "Invalid!";
